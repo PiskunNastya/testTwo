@@ -1,0 +1,50 @@
+.separateModalWindow {
+    width: 50rem;
+    height: 25rem;
+    background: rgb(35, 39, 71);
+    border-radius: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.separateModalWindow__none {
+    display: none;
+}
+
+
+.separateModalWindow p {
+    color: white;
+}
+
+
+.separateModalWindow button {
+    background: rgb(97, 102, 146);;
+    color: white;
+    border: 2px solid white;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 3px;
+}
+
+.separateModalWindow button:hover {
+    background: rgb(206, 209, 230);;
+    color: rgba(8, 6, 6, 0.568);
+    border: 2px solid white;
+}
+
+
+
+
+
+#content_wrapper {
+    min-width: 55rem;
+}

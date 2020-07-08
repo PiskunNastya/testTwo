@@ -1,0 +1,160 @@
+body,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-container {
+    max-width: 920px !important;
+}
+
+body {
+    background-image: url(/assets/images/bg-barilla.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.full {
+    border-radius: .7em;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 1em;
+}
+
+.headline {
+    background: #F01A18;
+    border-radius: .7em .7em 0 0;
+}
+
+.headline h1 {
+    font-family: 'Baloo Bhai', cursive;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+#footer p,
+.footer_links {
+    font-size: .6em;
+}
+
+h2.cell.sub_headline,
+h2.question {
+    font-size: 1.5em;
+    color: #363636;
+    text-shadow: 0 0 0.85em #ccc;
+}
+
+.prize {
+    padding-top: 2em !important;
+    -webkit-animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-bottom {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-bottom {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+
+[id^="form_"] label:not(.button),
+span.field_note,
+[id^=form_] select {
+    color: #4e4e4e;
+}
+
+
+
+
+[id^=form_] input:not([type='checkbox']):not([type='radio']),
+[id^=form_] select {
+    border-bottom: 1px solid #677073;
+}
+
+[id^=form_] input:not([type='checkbox']):not([type='radio']) {
+    color: white;
+}
+
+.button,
+#submit_reg_half,
+#submit_reg_full {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #F01A18;
+    color: #fff;
+}
+
+.button:hover,
+#submit_reg_half:hover,
+#submit_reg_full:hover {
+    background: #012A56;
+    -webkit-transition: all .35s ease-in-out !important;
+    transition: all .35s ease-in-out !important;
+}
+
+/* Small only */
+
+@media screen and (max-width: 37.9375em) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.3rem;
+    }
+
+    #prize_img img {
+        max-width: 70%;
+    }
+}
+
+/* iPad Portait only */
+
+@media only screen and (min-width: 37.9375em) and (max-width: 39.9375em) {}
+
+/* Medium and up */
+
+@media screen and (min-width: 40em) {}
+
+/* Large and up */
+
+@media screen and (min-width: 64em) {}
